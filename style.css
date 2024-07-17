@@ -29,8 +29,11 @@ header div a.navbar-link{
 }
 /* main styles */
 main img{
-    width: 100%;
+    /* width: 100%; */
     border-bottom: 7px red solid;
+}
+main div.main-content{
+    margin: 30px 60px ;
 }
 main div.main-content h1{
     color: red;
@@ -39,7 +42,7 @@ main div.main-content h1{
 main div.main-content p{
     font-size: 20px;
     line-height: 40px;
-    text-align: center;
+    text-align:justify;
 }
 /* footer styles */
 footer{
@@ -52,4 +55,57 @@ footer h5.copyright{
     color: white;
     font-size: 20px;    
 }
+ /* FRiends main styles */
+ main div.mario_friends p{
+     text-align: center;
+     font-size: 25px;
+    }
+    main div.mario_friends h1{
+     color: red;
+     text-align: center;
+     font-size: 40px;
+    }
+    main #friends-banner{
+        width: 100%;
+    }
+    .friends-box{
+        text-align: center;
+        padding: 20px;
+        background-color: lightgray;
+        border-radius: 25px;
+        margin: 50px 0;
+    }
+    .friends-box img{
+        border: none;
+
+    }
+    .friends-box h1{
+        color: red;
+    }
+    .friends-box p{
+        line-height:40px;
+        font-size: 20px;
+    }
+    section{
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+    main div.gallery-images{
+        text-align: center;
+        margin: 30px;
+    }
+    main div.gallery-images img{
+        width: 40%;
+        margin: 8px;
+    }
+    main h1{
+        color: red;
+        text-align: center;
+        font-size: 50px;
+    }
+    main div.banner img{
+        width: 100%;
+    }
+
+
 
