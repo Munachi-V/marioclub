@@ -20,9 +20,36 @@ header div h1.main-heading{
 }
 header div.nav-bar{
     background-color: grey;
+    
 }
 header div a.navbar-link{
     color: white;
     margin: 120px;
+    text-decoration: none;
 }
 /* main styles */
+main img{
+    width: 100%;
+    border-bottom: 7px red solid;
+}
+main div.main-content h1{
+    color: red;
+    text-align: center;
+}
+main div.main-content p{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+/* footer styles */
+footer{
+    background-color: grey;
+    padding: 25px;
+}
+footer h5.copyright{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
