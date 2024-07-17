@@ -1,0 +1,28 @@
+/* css default */
+*{
+    font-family: cursive;
+    margin:0;
+    padding:0;
+}
+/* header styles */
+header div{
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+}
+header div h1.main-heading{
+    
+    color: white;
+    border: 4px white solid;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px;
+}
+header div.nav-bar{
+    background-color: grey;
+}
+header div a.navbar-link{
+    color: white;
+    margin: 120px;
+}
+/* main styles */
